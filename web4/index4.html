@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Лабораторная работа №4 — Упражнение 4</title>
+  <script src="script4.js"></script>
+</head>
+<body ondblclick="changeColor();">
+  <h1 align="center">Упражнение 4. Регулярные выражения и события мыши</h1>
+
+  <div id="form-container" style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
+    <form name="emailForm">
+      <input type="text" name="email" placeholder="Введите e-mail" style="width: 250px;">
+      <input type="button" value="Проверить" onclick="checkEmail(emailForm.email.value);">
+    </form>
+    <p id="message" style="margin-left: 15px; font-weight: bold;"></p>
+  </div>
+
+</body>
+</html>
